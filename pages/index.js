@@ -67,12 +67,12 @@ export default function Home({ exploreData, cardsData }) {
 
 //fetch API. papareact json url no longer exists . i devised this way to store the json locally. I am using the api route. created a data.json and stored in public folder. then created a data.js. stored in pages/api
 export async function getStaticProps() {
-  // const exploreData = await fetch(`http://localhost:3000/data.json`).then(
-    const exploreData = await fetch(`http://localhost:3000/api/data`).then(
+  // const exploreData = await fetch(`http://vercel.app/data.json`).then(
+    const exploreData = await fetch(`http://mockbnb.vercel.app/api/data`).then(
     (res) => res.json()    ///here store in a json
 );
 
-const cardsData = await fetch (`http://localhost:3000/api/slide`).then(
+const cardsData = await fetch (`http://mockbnb.vercel.app/api/slide`).then(
   (res) => res.json() //retrieve the json
 )
 
