@@ -11,7 +11,7 @@ const Banner = () => {
           <p className="text-sm sm:text-lg text-gray-800 font-medium ">
               Not sure where to go? Perfect
           </p>
-          <button className="text-purple-500 bg-white px-10 py-4 shadow-md rounded-full font-bold my-3 hover:shadow-xl">I'm Flexible</button>
+          <button className="text-purple-500 bg-white px-10 py-4 shadow-md rounded-full font-bold my-3 hover:shadow-xl">I&apos;m Flexible</button>
       </div>
     </div>
 
